@@ -7,7 +7,7 @@ The objective was to build a clean analytical dataset ("single source of truth")
 
 🛠 Tech Stack
 
-SQL (BigQuery / PostgreSQL style queries)
+SQL 
 
 Data Modeling (Joins, Aggregations)
 
