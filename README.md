@@ -50,8 +50,6 @@ What are the top 3 shopping malls by revenue?
 
 How does gender distribution vary by category?
 
-How does payment preference vary by age group?
-
 💡 Key Insights
 
 Identified $115M+ total revenue in 2022
