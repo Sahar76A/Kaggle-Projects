@@ -1,13 +1,12 @@
 /* ============================================================
    CUSTOMER & SALES ANALYSIS
-   Author: Sahar Heidariasl
    Description:
    SQL queries used to generate business insights from sales and
    customer datasets (single source of truth).
    ============================================================ */
 
 ---------------------------------------------------------------
--- 0) QUICK DATA CHECKS (OPTIONAL BUT PROFESSIONAL)
+-- 0) QUICK DATA CHECKS 
 ---------------------------------------------------------------
 
 -- Preview data
@@ -60,7 +59,7 @@ LEFT JOIN customer_data c
 WHERE c.customer_id IS NULL;
 
 ---------------------------------------------------------------
--- 2) BUSINESS QUESTIONS (MATCHING README)
+-- 2) BUSINESS QUESTIONS 
 ---------------------------------------------------------------
 
 /* ------------------------------------------------------------
@@ -72,8 +71,7 @@ FROM sales_data;
 
 
 /* ------------------------------------------------------------
-   (Optional) Total revenue by year (if you have a date column)
-   Replace order_date with your actual date column.
+   Total revenue by year 
 ------------------------------------------------------------ */
 -- SELECT
 --   EXTRACT(YEAR FROM order_date) AS year,
