@@ -1,26 +1,77 @@
 📊 Customer & Sales Data Analysis | SQL Project
+📌 Project Overview
 
-Analyzed transactional sales and customer data to generate business insights by building an analytical dataset and performing structured revenue and segmentation analysis.
+This project analyzes transactional sales and customer data to generate structured business insights using SQL.
 
-Key Contributions:
+The objective was to build a clean analytical dataset ("single source of truth") and answer key revenue and segmentation questions relevant to retail performance.
 
-Integrated multiple raw datasets into a single source of truth to streamline analysis.
+🛠 Tech Stack
 
-Validated data integrity (duplicate checks, join consistency, null validation).
+SQL (BigQuery / PostgreSQL style queries)
 
-Performed customer segmentation by gender and age groups.
+Data Modeling (Joins, Aggregations)
 
-Analyzed purchasing behavior and payment method trends.
+Data Validation & Cleaning
 
-Business Insights Generated:
+Analytical Query Optimization
 
-Identified $115M+ total revenue in 2022.
+📂 Dataset
 
-Determined Clothing as the highest-performing product category.
+Sales dataset
 
-Identified top three revenue-generating shopping malls.
+Customer dataset
+(Source: Kaggle – Sales & Customer Data)
 
-Discovered higher purchase frequency among female customers across all categories.
+Both datasets were integrated into a unified analytical layer.
 
-Revealed strong cash payment preference across age groups.
+🔄 Data Preparation & Modeling
 
+Merged raw sales and customer tables using relational joins
+
+Created analytical views for revenue and segmentation
+
+Performed data integrity validation:
+
+Duplicate detection
+
+Null checks
+
+Join consistency validation
+
+Structured dataset for scalable querying
+
+📈 Business Questions Answered
+
+What is the total revenue generated?
+
+Which product category performs best?
+
+What are the top 3 shopping malls by revenue?
+
+How does gender distribution vary by category?
+
+How does payment preference vary by age group?
+
+💡 Key Insights
+
+Identified $115M+ total revenue in 2022
+
+Clothing category generated the highest revenue
+
+Top 3 malls contributed majority of total revenue
+
+Female customers showed higher purchase frequency across categories
+
+Strong cash payment preference across multiple age groups
+
+📊 Analytical Skills Demonstrated
+
+Revenue aggregation & grouping
+
+Customer segmentation
+
+Behavioral trend analysis
+
+Business KPI extraction from raw transactional data
+
+Building a clean reporting layer from raw data
